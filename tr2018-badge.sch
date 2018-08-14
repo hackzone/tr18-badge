@@ -266,5 +266,5 @@ VCC
 Text GLabel 4300 2400 0    60   Input ~ 0
 VCC
 Text Notes 8150 1700 0    60   ~ 0
-TODO:\n\n- Add actual footprint for chinese CR2032 holder\n- Break out pins required for flashing ESP-12\n- Break out other interesting GPIOs
+TODO:\n\n- Add power toggle switch (SMD + through-hole)\n- Break out pins required for flashing ESP-12\n- Break out other interesting GPIOs
 $EndSCHEMATC

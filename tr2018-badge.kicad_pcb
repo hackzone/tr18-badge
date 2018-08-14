@@ -62,7 +62,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -146,7 +146,7 @@
   )
 
   (module Battery_Holders:Keystone_1058_1x2032-CoinCell (layer B.Cu) (tedit 589EE147) (tstamp 5B72D597)
-    (at 52.2 60.8 180)
+    (at 52 60.2 180)
     (descr http://www.keyelco.com/product-pdf.cfm?p=14028)
     (tags "Keystone type 1058 coin cell retainer")
     (path /5B72CDE3)
