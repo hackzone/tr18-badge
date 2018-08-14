@@ -1,0 +1,123 @@
+Cmp-Mod V01 Created by PcbNew   date = 8/14/2018 4:28:35 PM
+
+BeginCmp
+TimeStamp = 5B72D597
+Path = /5B72CDE3
+Reference = BT1;
+ValeurCmp = Battery_Cell;
+IdModule  = Battery_Holders:Keystone_1058_1x2032-CoinCell;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B72D59D
+Path = /5B72D096
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B72D5A3
+Path = /5B72D019
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B72D5A9
+Path = /5B72CE39
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B72D5AF
+Path = /5B72CEFE
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B72D5B5
+Path = /5B72D059
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B72D5BB
+Path = /5B72D906
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B72D5C1
+Path = /5B72D97E
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B72D5C7
+Path = /5B72D56A
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B72D5CD
+Path = /5B72D53C
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B72D5D3
+Path = /5B72D490
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B72D5ED
+Path = /5B72D419
+Reference = U1;
+ValeurCmp = ESP-12F;
+IdModule  = ESP8266:ESP-12E_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B72D5F5
+Path = /5B72D374
+Reference = X1;
+ValeurCmp = Badgelife_shitty_connector;
+IdModule  = ShittyAddOn:Badgelife-Shitty-2x2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B72E7A0
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = modules:wingstext;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B72E7E4
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = modules:fill;
+EndCmp
+
+EndListe
