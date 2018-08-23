@@ -1,4 +1,4 @@
-update=8/14/2018 2:48:42 PM
+update=2018 August 23, Thursday 15:24:30
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,4 +62,4 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=libraries/badgelife_shitty_connector
-LibName34=libraries/kicad-ESP8266-master/ESP8266
+LibName34=libraries/ESP8266
