@@ -31,7 +31,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:badgelife_shitty_connector
 LIBS:ESP8266
 LIBS:tr2018-badge-cache
 EELAYER 25 0
@@ -116,12 +115,10 @@ F 3 "" H 5300 2850 50  0001 C CNN
 $EndComp
 Text GLabel 1500 800  1    60   Output ~ 0
 VCC
-Text GLabel 1500 2000 3    60   Output ~ 0
+Text GLabel 1500 1100 3    60   Output ~ 0
 GND
 Text GLabel 4950 2700 0    60   Input ~ 0
 VCC
-Text GLabel 4950 3000 0    60   Input ~ 0
-GND
 $Comp
 L Badgelife_shitty_connector X1
 U 1 1 5B72D374
@@ -245,24 +242,13 @@ TODO:\n\n- Add power toggle switch (SMD + through-hole)\n- Break out pins requir
 $Comp
 L SW_SPDT SW1
 U 1 1 5B7EBD37
-P 1200 1450
-F 0 "SW1" H 1200 1620 50  0000 C CNN
-F 1 "SW_SPDT" H 1200 1250 50  0000 C CNN
-F 2 "Buttons_Switches_THT:SW_Micro_SPST" H 1200 1450 50  0001 C CNN
-F 3 "" H 1200 1450 50  0001 C CNN
-	1    1200 1450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SW_SPDT SW2
-U 1 1 5B7EBDC2
-P 1800 1450
-F 0 "SW2" H 1800 1620 50  0000 C CNN
-F 1 "SW_SPDT" H 1800 1250 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPDT_PCM12" H 1800 1450 50  0001 C CNN
-F 3 "" H 1800 1450 50  0001 C CNN
-	1    1800 1450
-	0    -1   -1   0   
+P 4350 2900
+F 0 "SW1" H 4350 3070 50  0000 C CNN
+F 1 "SW_SPDT" H 4350 2700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 4350 2900 50  0001 C CNN
+F 3 "" H 4350 2900 50  0001 C CNN
+	1    4350 2900
+	1    0    0    -1  
 $EndComp
 $Comp
 L LED D6
@@ -290,75 +276,54 @@ F 3 "" H 1700 3750 50  0001 C CNN
 	1    1700 3550
 	1    0    0    -1  
 $EndComp
-Text GLabel 1350 4000 0    60   Input ~ 0
+Text GLabel 1350 4150 0    60   Input ~ 0
 GND
-Text GLabel 3350 3850 2    60   Input ~ 0
+Text GLabel 2950 4100 0    60   Input ~ 0
 VCC
 $Comp
 L SW_Push SW4
 U 1 1 5B7EC394
-P 1700 4000
-F 0 "SW4" H 1750 4100 50  0000 L CNN
-F 1 "SW_Push" H 1700 3940 50  0000 C CNN
-F 2 "Buttons_Switches_THT:SW_PUSH_6mm_h4.3mm" H 1700 4200 50  0001 C CNN
-F 3 "" H 1700 4200 50  0001 C CNN
-	1    1700 4000
+P 1700 4150
+F 0 "SW4" H 1750 4250 50  0000 L CNN
+F 1 "SW_Push" H 1700 4090 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm_h4.3mm" H 1700 4350 50  0001 C CNN
+F 3 "" H 1700 4350 50  0001 C CNN
+	1    1700 4150
 	1    0    0    -1  
 $EndComp
-Text GLabel 3350 4200 2    60   Input ~ 0
+Text GLabel 2950 4550 0    60   Input ~ 0
 VCC
-NoConn ~ 1100 1250
-NoConn ~ 1700 1250
 $Comp
 L SW_SPDT SW5
 U 1 1 5B7ED280
-P 2200 4000
-F 0 "SW5" H 2200 4170 50  0000 C CNN
-F 1 "SW_SPDT" H 2200 3800 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPDT_PCM12" H 2200 4000 50  0001 C CNN
-F 3 "" H 2200 4000 50  0001 C CNN
-	1    2200 4000
+P 2200 4150
+F 0 "SW5" H 2200 4320 50  0000 C CNN
+F 1 "SW_SPDT" H 2200 3950 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPDT_PCM12" H 2200 4150 50  0001 C CNN
+F 3 "" H 2200 4150 50  0001 C CNN
+	1    2200 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 4100 2650 4200
+	2400 4250 2650 4250
 Wire Wire Line
-	2400 4100 2650 4100
+	2650 4050 2650 4000
 Wire Wire Line
-	2650 3900 2650 3850
+	2400 4050 2650 4050
 Wire Wire Line
-	2400 3900 2650 3900
+	1900 4150 2000 4150
 Wire Wire Line
-	1900 4000 2000 4000
+	2650 4450 2950 4450
 Wire Wire Line
-	3250 4200 3350 4200
+	2650 4000 2950 4000
 Wire Wire Line
-	3250 3850 3350 3850
-Wire Wire Line
-	2650 4200 2750 4200
-Wire Wire Line
-	2650 3850 2750 3850
-Wire Wire Line
-	1500 4000 1350 4000
+	1500 4150 1350 4150
 Wire Wire Line
 	1500 3550 1350 3550
 Wire Wire Line
 	1900 3550 2050 3550
 Wire Wire Line
 	2600 3550 2350 3550
-Wire Wire Line
-	1800 1950 1800 1650
-Wire Wire Line
-	1200 1950 1200 1650
-Wire Wire Line
-	1200 1950 1800 1950
-Connection ~ 1500 1100
-Wire Wire Line
-	1900 1100 1900 1250
-Wire Wire Line
-	1300 1100 1900 1100
-Wire Wire Line
-	1300 1250 1300 1100
 Connection ~ 6950 1300
 Wire Wire Line
 	6950 1150 7000 1150
@@ -383,27 +348,32 @@ Connection ~ 5600 3000
 Connection ~ 5900 3000
 Connection ~ 6200 3000
 Wire Wire Line
-	4950 3000 6500 3000
+	4550 3000 6500 3000
+Text GLabel 4150 2900 0    60   Input ~ 0
+GND
+NoConn ~ 4550 2800
 $Comp
-L Conn_02x01_Row_Letter_First J1
-U 1 1 5B7EDBD4
-P 2950 3850
-F 0 "J1" H 3000 3950 50  0000 C CNN
-F 1 "Conn_02x01_Row_Letter_First" H 3000 3750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x01_Pitch2.54mm" H 2950 3850 50  0001 C CNN
-F 3 "" H 2950 3850 50  0001 C CNN
-	1    2950 3850
+L Conn_01x02 J1
+U 1 1 5B8126A4
+P 3150 4000
+F 0 "J1" H 3150 4100 50  0000 C CNN
+F 1 "Conn_01x02" H 3150 3800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3150 4000 50  0001 C CNN
+F 3 "" H 3150 4000 50  0001 C CNN
+	1    3150 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x01_Row_Letter_First J2
-U 1 1 5B7EDC50
-P 2950 4200
-F 0 "J2" H 3000 4300 50  0000 C CNN
-F 1 "Conn_02x01_Row_Letter_First" H 3000 4100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x01_Pitch2.54mm" H 2950 4200 50  0001 C CNN
-F 3 "" H 2950 4200 50  0001 C CNN
-	1    2950 4200
+L Conn_01x02 J2
+U 1 1 5B812703
+P 3150 4450
+F 0 "J2" H 3150 4550 50  0000 C CNN
+F 1 "Conn_01x02" H 3150 4250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3150 4450 50  0001 C CNN
+F 3 "" H 3150 4450 50  0001 C CNN
+	1    3150 4450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2650 4250 2650 4450
 $EndSCHEMATC
