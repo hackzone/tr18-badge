@@ -31,6 +31,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:badgelife_shitty_connector
 LIBS:ESP8266
 LIBS:tr2018-badge-cache
 EELAYER 25 0
@@ -245,7 +246,7 @@ U 1 1 5B7EBD37
 P 4350 2900
 F 0 "SW1" H 4350 3070 50  0000 C CNN
 F 1 "SW_SPDT" H 4350 2700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 4350 2900 50  0001 C CNN
+F 2 "modules:SW_CuK_OS102011MA1QN1_SPDT_Angled" H 4350 2900 50  0001 C CNN
 F 3 "" H 4350 2900 50  0001 C CNN
 	1    4350 2900
 	1    0    0    -1  

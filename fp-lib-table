@@ -2,4 +2,5 @@
   (lib (name ESP8266)(type KiCad)(uri "$(KIPRJMOD)/libraries/ESP8266.pretty")(options "")(descr ""))
   (lib (name ShittyAddOn)(type KiCad)(uri "$(KIPRJMOD)/libraries/ShittyAddOn.pretty")(options "")(descr ""))
   (lib (name modules)(type KiCad)(uri "$(KIPRJMOD)/modules")(options "")(descr ""))
+  (lib (name BatteryHolder)(type KiCad)(uri "$(KIPRJMOD)/libraries/BatteryHolder.pretty")(options "")(descr ""))
 )
