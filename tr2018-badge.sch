@@ -68,7 +68,7 @@ F 1 "LED" H 5900 2750 50  0000 C CNN
 F 2 "LEDs:LED_D5.0mm" H 5900 2850 50  0001 C CNN
 F 3 "" H 5900 2850 50  0001 C CNN
 	1    5900 2850
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L LED D4
@@ -79,7 +79,7 @@ F 1 "LED" H 6200 2750 50  0000 C CNN
 F 2 "LEDs:LED_D5.0mm" H 6200 2850 50  0001 C CNN
 F 3 "" H 6200 2850 50  0001 C CNN
 	1    6200 2850
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L LED D2
@@ -90,7 +90,7 @@ F 1 "LED" H 5600 2750 50  0000 C CNN
 F 2 "LEDs:LED_D5.0mm" H 5600 2850 50  0001 C CNN
 F 3 "" H 5600 2850 50  0001 C CNN
 	1    5600 2850
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L LED D5
@@ -101,7 +101,7 @@ F 1 "LED" H 6500 2750 50  0000 C CNN
 F 2 "LEDs:LED_D5.0mm" H 6500 2850 50  0001 C CNN
 F 3 "" H 6500 2850 50  0001 C CNN
 	1    6500 2850
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L LED D1
@@ -112,7 +112,7 @@ F 1 "LED" H 5300 2750 50  0000 C CNN
 F 2 "LEDs:LED_D5.0mm" H 5300 2850 50  0001 C CNN
 F 3 "" H 5300 2850 50  0001 C CNN
 	1    5300 2850
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Text GLabel 1500 800  1    60   Output ~ 0
 VCC
@@ -260,7 +260,7 @@ F 1 "LED" H 2200 3450 50  0000 C CNN
 F 2 "LEDs:LED_D5.0mm" H 2200 3550 50  0001 C CNN
 F 3 "" H 2200 3550 50  0001 C CNN
 	1    2200 3550
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Text GLabel 1350 3550 0    60   Input ~ 0
 GND
